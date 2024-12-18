@@ -21,13 +21,19 @@
     "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
     "@electron-forge/plugin-fuses": "^7.5.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^31.6.0"
+    "electron": "^32.2.7"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
     "electron-squirrel-startup": "^1.0.1",
-    "express": "^4.21.0",
-    "node-pty": "^1.0.0",
+    "express": "^4.21.1",
+    "node-pty": "^1.1.0-beta22",
     "vhost": "^3.0.2"
+  },
+  "overrides": {
+    "node-gyp-build": "4.8.1",
+    "kerberos@2.1.1": {
+      "node-addon-api": "7.1.0"
+    }
   }
 }
