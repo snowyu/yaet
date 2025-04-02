@@ -13,21 +13,21 @@
   "license": "UNLICENSED",
   "description": "YAET: Another Electron Terminal",
   "devDependencies": {
-    "@electron-forge/cli": "^7.5.0",
-    "@electron-forge/maker-deb": "^7.5.0",
-    "@electron-forge/maker-rpm": "^7.5.0",
-    "@electron-forge/maker-squirrel": "^7.5.0",
-    "@electron-forge/maker-zip": "^7.5.0",
-    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
-    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron-forge/cli": "^7.8.0",
+    "@electron-forge/maker-deb": "^7.8.0",
+    "@electron-forge/maker-rpm": "^7.8.0",
+    "@electron-forge/maker-squirrel": "^7.8.0",
+    "@electron-forge/maker-zip": "^7.8.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.0",
+    "@electron-forge/plugin-fuses": "^7.8.0",
     "@electron/fuses": "^1.8.0",
-    "electron": "^32.2.7"
+    "electron": "^34.4.1"
   },
   "dependencies": {
     "body-parser": "^1.20.3",
     "electron-squirrel-startup": "^1.0.1",
     "express": "^4.21.1",
-    "node-pty": "^1.1.0-beta22",
+    "node-pty": "^1.1.0-beta33",
     "vhost": "^3.0.2"
   },
   "overrides": {

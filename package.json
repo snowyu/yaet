@@ -12,6 +12,9 @@
   "workspaces": [
     "src/*"
   ],
+  "overrides": {
+    "node-abi": "3.74.0"
+  },
   "devDependencies": {
     "@electron/rebuild": "^3.7.1"
   }
